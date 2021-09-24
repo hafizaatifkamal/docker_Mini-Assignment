@@ -69,11 +69,13 @@ class App extends Component {
           ReactTracks
         </p>
         <p>
+          {/*Smily Face*/}
           <i class="fas fa-smile-wink"></i>
           Atif Kamal
         </p>
         <p>
-          SIGNOUT
+          {/*Sign-Out Logo*/}
+          SIGNOUT 
           <i class="fas fa-sign-out-alt"></i>
         </p>
       </div>

@@ -64,6 +64,7 @@ p {
   flex-direction: column;
   font-size: 1rem;
   font-weight: 500;
+  color: blueviolet;
 }
 
 .song-subtitle {
@@ -71,6 +72,7 @@ p {
   padding: 10px;
   font-size: .95rem;
   font-weight: 500;
+  color: lightsteelblue;
 }
 
 

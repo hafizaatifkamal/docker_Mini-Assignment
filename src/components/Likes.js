@@ -17,7 +17,8 @@ const Likes = (props) => {
 	
 		return (
 
-			<button onClick={incrementMe}> {likes}</button>
+			<i class="fas fa-thumbs-up" onClick={incrementMe}> {likes}</i>
+			// <button onClick={incrementMe}> {likes}</button>
 		)
 }
 
