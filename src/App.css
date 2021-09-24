@@ -1,38 +1,96 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
+  background-color: lightgray;
+  height: 500px;
+  width: 700px;
+  margin: auto;
+  margin-top: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  background-color: blueviolet;
+  height: 50px;
+  width: 700px;
+  display: flex;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  margin: auto;
+  color: darksalmon;
+  font-size: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.playlist {
+  display: flex;
+  background-color: whitesmoke;
+  height: 300px;
+  width: 650px;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.playlist-item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.playlist-item-each {
+  border-style: none groove groove groove;
+  height: 75px;
+}
+
+.likesCount {
+  float: left;
+  padding: 10px;
+}
+
+.song-title {
+  font-family: Ubuntu;
+  float: left;
+  margin-left: 50px;
+  padding: 10px;
+  height: 75%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.song-subtitle {
+  display: flex;
+  padding: 10px;
+  font-size: .95rem;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.audio-controls {
+  margin-left: 340px;
+  width: 50%;
+  height: 25%;
+}
+
+audio {
+  width: 50%;
+}
+
+input {
+  height: 25px;
+  width: 450px;
+  margin: 2px;
+  border-style: none;
+}
+
+button {
+  height: 25px;
 }
