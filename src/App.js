@@ -42,7 +42,7 @@ class App extends Component {
   state = {list: SongList}
 
   onClickLikeChange = (id) =>{
-    console.log(id,"hai")
+    
     
   this.setState(prevState => ({list:
 
